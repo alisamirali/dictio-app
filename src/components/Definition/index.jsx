@@ -79,7 +79,7 @@ const Definition = ({ bookmarks, addBookmark, removeBookmark }) => {
           ...theme.mixins.alignInTheCenter,
         }}
       >
-        <CircularProgress />;
+        <CircularProgress />
       </Box>
     );
 
